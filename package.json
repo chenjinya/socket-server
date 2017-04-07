@@ -1,0 +1,13 @@
+{
+  "name": "socket-server",
+  "version": "1.0.0",
+  "author": "jinyachen@gmail.com",
+  "description": "a  nodejs socket io server !",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --harmony app.js"
+  },
+  "dependencies": {
+    "socket.io": "^1.7.3"
+  }
+}
