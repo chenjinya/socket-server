@@ -7,8 +7,8 @@ var sslOptions = {
   cert: fs.readFileSync('ssl/file.crt')
 }
 
-var server = https.createServer(sslOptions);
-//var server = http.createServer();
+// var server = https.createServer(sslOptions);
+var server = http.createServer();
 
 var io = require('socket.io')(server);
 var clientList = {};
